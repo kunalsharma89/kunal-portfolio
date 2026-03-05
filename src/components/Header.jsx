@@ -17,7 +17,7 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-slate-800/80 bg-slate-950/90 backdrop-blur-md">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6">
         <a href="#" className="font-semibold text-white font-mono text-lg">
-          {developer.name.split(' ')[0]}
+          {developer.name}
         </a>
         <ul className="hidden md:flex items-center gap-6">
           {navItems.map((item) => (
